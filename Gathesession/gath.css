@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 45px;
+    background: #1e1e1e;
+}
+
+.navbar-toggler-icon {
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+
+    /* Pink */
+
+    color: #DB2A6B;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+
+.con-text {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.text-c {
+    /* Text/Text 1 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 167% */
+
+    /* White */
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.button {
+    width: 240px;
+    border: non;
+    height: 60px;
+    background: #DB2A6B;
+    box-shadow: 0px 24px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 16px 16px 16px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 20px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.group {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 0;
+}
+
+a {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: #DB2A6B;
+
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.group a:hover:after {
+    width: 0;
+}
+
+.navbar-brand:hover:after {
+    width: 0;
+}
+
+.menubar a:hover:after {
+    width: 0;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+}
+
+.group i {
+    font-size: small;
+    margin-left: 10px;
+}
+
+ul {
+    padding-left: 0rem;
+}
+
+.icon li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 5px;
+
+}
+
+.icon i {
+    background: rgba(255, 255, 255, 0.25);
+    opacity: 0.5;
+    border-radius: 16px;
+    padding: 20px;
+
+}
+
+.icon p {
+    width: 100px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.img-section img {
+    margin: 10px;
+    width: 100%;
+
+}
+
+.bld {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .con-text {
+        font-size: large;
+        line-height: normal;
+    }
+
+    .text-c {
+        font-size: medium;
+        line-height: normal;
+        margin: 10px;
+    }
+
+    .button {
+        width: 120px;
+        height: 30px;
+        font-size: 9px;
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 10px;
+        line-height: 17px;
+        /* identical to box height */
+
+
+        /* White */
+
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+
+    .navbar-brand {
+
+
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+
+        /* Pink */
+
+        color: #DB2A6B;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #DB2A6B;
+    }
+
+    .icon li {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: normal;
+        margin: 5px;
+        margin-left: 0;
+
+    }
+
+    .group a {
+
+        font-size: 10px;
+        line-height: normal;
+        /* identical to box height */
+
+        text-decoration-line: underline;
+
+        /* White */
+
+        color: #FFFFFF;
+
+    }
+
+    .group i {
+        font-size: x-small;
+        margin-left: 5px;
+    }
+}

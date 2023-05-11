@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    position: relative;
+    background: #f9faff
+}
+
+body .image {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.navbar {
+    display: flex
+}
+
+.navbar .left {
+    margin-right: 3rem
+}
+
+.navbar .left ul {
+    padding: 0;
+    list-style: none
+}
+
+.navbar .left ul li {
+    display: inline;
+    padding: 14px
+}
+
+.navbar .left ul a {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #25282b;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #303030
+}
+
+.navbar .right {
+    justify-content: left;
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px
+}
+
+.box {
+    margin-left: 8rem;
+    margin-top: 3rem
+}
+
+.box .top {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fdc435
+}
+
+.box .discp {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color: #333
+}
+
+.box .short-text {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #828282
+}
+
+.box .pro-b {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #25282b;
+    background: #fdc435;
+    border-radius: 8px;
+    border: none;
+    width: 115px;
+    height: 43px
+}
+
+.box .l-b {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #25282b;
+    border: 3px solid #000;
+    background: #f9faff;
+    border-radius: 8px;
+    width: 115px;
+    height: 43px;
+    margin-left: 10px
+}
+
+.project {
+    margin-top: 17rem
+}
+
+.project .heading {
+    position: relative;
+    margin: auto;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center
+}
+
+.project .heading :after {
+    content: "";
+    position: absolute;
+    width: 7%;
+    border: 3px solid #fdc435;
+    bottom: -5px;
+    border-radius: 20px;
+    right: 35.5rem
+}
+
+.project .box-1 {
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5rem;
+    width: 60rem;
+    height: 524px;
+    overflow: hidden;
+    align-content: center
+}
+
+.project .box-1 .card {
+    border-radius: 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-left: 2rem
+}
+
+.project .box-1 .card b {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #25282b
+}
+
+.project .box-1 .card p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #828282
+}
+
+.project .box-1 .right {
+    padding: 0;
+    margin: 0
+}
+
+.project .box-1 .right img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.project .box-1 .button {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #25282b;
+    border: 2px solid #000;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    width: 140px;
+    height: 43px
+}
+
+.project .box-2 {
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5rem;
+    width: 60rem;
+    height: 524px;
+    overflow: hidden
+}
+
+.project .box-2 .card {
+    border: none;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    padding: 2rem
+}
+
+.project .box-2 .card b {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #25282b
+}
+
+.project .box-2 .card p {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #828282
+}
+
+.project .box-2 .left {
+    padding: 0
+}
+
+.project .box-2 .left img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.project .box-2 .button {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #25282b;
+    border: 2px solid #000;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    width: 140px;
+    height: 43px
+}
+
+.last {
+    margin-top: 5rem
+}
+
+.last .heading {
+    position: relative;
+    margin: auto;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center
+}
+
+.last .heading :after {
+    content: "";
+    position: absolute;
+    width: 7%;
+    border: 3px solid #fdc435;
+    bottom: -5px;
+    border-radius: 20px;
+    left: 41.5rem
+}
+
+.forom {
+    width: 25%
+}
+
+.forom .button {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #25282b;
+    border: none;
+    background: #fdc435;
+    border-radius: 8px;
+    margin-left: 15rem;
+    width: 89px;
+    height: 43px
+}
+
+.footer {
+    padding-left: 35rem;
+    margin-top: 3rem
+}
+
+.footer .icon {
+    padding: 0;
+    list-style: none
+}
+
+.footer .icon li {
+    display: inline;
+    padding: 10px
+}
+
+.footer .icon li i {
+    color: #000
+}
+
+.footer .text p {
+    margin-left: 2rem
+}
+
+.img img {
+    position: absolute;
+    right: 0;
+    bottom: -1;
+    width: 100%
+}
+
+/*# sourceMappingURL=styles.min.css.map */
